@@ -1,0 +1,209 @@
+body {
+    margin: 0; 
+    background-color: #bdac2a
+}
+
+/* header {
+    background-color: #03ce00;
+    background-image: linear-gradient(45deg, #03ce00 0%, #675d15 100%);
+
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+header p {
+    font-size: 40px;
+    color: rgb(238, 215, 186);
+    font-family: 'Anton', sans-serif;
+    white-space: nowrap;
+} */
+.navbar{
+    margin: 0;
+    padding: 0;
+    
+    background-color: #03ce00;
+    background-image: linear-gradient(45deg, #03ce00 0%, #675d15 100%);
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.navbar-light .navbar-brand{
+    color: antiquewhite;
+}
+.navbar-light .navbar-nav .nav-link  {
+    color: antiquewhite;
+}
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.navbar-brand{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.container-fluid {
+    width: 100%;
+    padding: 0;
+}
+ul {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+
+li {
+
+    padding: 10px;
+    color: antiquewhite;
+    font-size: 18px;
+}
+
+.logo{
+
+    display: flex;
+    align-items: center;
+}
+main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.intro {
+    width: 100%;
+    background-color: #a39a52;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url(hojas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+section img{
+    margin: 0 auto;
+    
+}
+
+article {
+    padding: 10px;
+   
+}
+
+.logo {
+    display: flex;   
+    
+}
+.logo p {
+    font-size: 30px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: gold;
+    font-family: 'Lobster', cursive;
+}
+
+.redes {
+    margin: 0 auto;
+}
+
+.redes img{
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+.servicios {
+    
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.servicios div {
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.servicios img{
+    border-radius: 300px;
+    border: 2px solid black;
+}
+
+footer {
+   
+    background-image: url(hojas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 20px;
+      
+}
+
+.photo {
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+.photo img {
+    border: 2px solid black;
+}
+@media screen  and (max-width:992px) {
+    .logo p {
+        font-size: 30px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        
+    }
+    section {
+        width: 100%;
+    }
+    
+}
+
+
+@media screen  and (max-width:450px) {
+    .logo p {
+        font-size: 25px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        
+    }
+    .servicios{
+       
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:350px) {
+    .logo p {
+        font-size: 18px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        
+    }
+
+   
+}
